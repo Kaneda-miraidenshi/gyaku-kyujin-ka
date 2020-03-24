@@ -1,5 +1,46 @@
+body{
+    margin:0;
+}
 
+.main{
+    background-color:cornsilk;
+
+}
 .header{
     background-color: sienna;
     color:cornsilk;
+    z-index:10;
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0;
+
+}
+
+.header h2{
+    text-align:center;
+}
+.header-list{
+    display:flex;
+    justify-content: space-between;
+    padding-inline-start:0px;
+}
+.header-list ol{
+    flex:auto;
+    font-family: 'Times New Roman', Times, serif;
+    width:25%;
+}
+.top-img{
+    height:0;
+    padding-top:66.640%;
+    width:100%;
+    background-image: url("trees-4843827_1280.jpg");
+    background-size: cover;
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+    z-index:1;
+}
+.top-img p{
+    color:sienna;
+
 }
