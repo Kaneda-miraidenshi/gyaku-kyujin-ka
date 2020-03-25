@@ -7,40 +7,43 @@ body{
 
 }
 .header{
-    background-color: sienna;
+    background-color:#000066;
     color:cornsilk;
     z-index:10;
     width:100%;
     position:fixed;
     top:0px;
     left:0;
+    height:90px;
 
 }
 
 .header h2{
     text-align:center;
+    margin-block-end:0;
 }
 .header-list{
     display:flex;
-    justify-content: space-between;
     padding-inline-start:0px;
+    margin-block-start:0px;
 }
+
 .header-list ol{
     flex:auto;
     font-family: 'Times New Roman', Times, serif;
     width:25%;
+    text-align: center;
+    padding:0;
 }
-.top-img{
-    height:0;
-    padding-top:66.640%;
+.top{
     width:100%;
-    background-image: url("trees-4843827_1280.jpg");
+    background-image:url("heriyakei419173_TP_V_Fotor.jpg");
     background-size: cover;
-    background-color:rgba(255,255,255,0.6);
-    background-blend-mode:lighten;
     z-index:1;
+    margin-top:90px;
 }
-.top-img p{
-    color:sienna;
-
+.top-txt{
+    padding:100px 0;
+    color:cornsilk;
+    text-align: center;
 }
