@@ -4,7 +4,12 @@
     color:cornsilk;
 }
 footer{
-
     background-color:#000044;
     color:cornsilk;
+    padding:20px 0;
+    text-align: center;
+}
+footer p{
+    margin-block-start:0;
+    margin-block-end:0;
 }
