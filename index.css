@@ -1,5 +1,49 @@
+body{
+    margin:0;
+}
 
+.main{
+    background-color:cornsilk;
+
+}
 .header{
-    background-color: sienna;
+    background-color:#000044;
     color:cornsilk;
+    z-index:10;
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0;
+    height:90px;
+
+}
+
+.header h2{
+    text-align:center;
+    margin-block-end:0;
+}
+.header-list{
+    display:flex;
+    padding-inline-start:0px;
+    margin-block-start:0px;
+}
+
+.header-list ol{
+    flex:auto;
+    font-family: 'Times New Roman', Times, serif;
+    width:25%;
+    text-align: center;
+    padding:0;
+}
+.top{
+    width:100%;
+    background-image:url("heriyakei419173_TP_V_Fotor.jpg");
+    background-size: cover;
+    z-index:1;
+    margin-top:90px;
+}
+.top-txt{
+    padding:100px 0;
+    color:cornsilk;
+    text-align: center;
 }
