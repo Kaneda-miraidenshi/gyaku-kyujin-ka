@@ -2,10 +2,12 @@ body{
     margin:0;
 }
 
-.main{
+.all{
     background-color:cornsilk;
 
 }
+
+/* ここからheaderです */
 .header{
     background-color:#000044;
     color:cornsilk;
@@ -35,17 +37,59 @@ body{
     text-align: center;
     padding:0;
 }
+
+/* ここからトップ画面です */
 .top{
     width:100%;
     background-image:url("heriyakei419173_TP_V_Fotor.jpg");
     background-size: cover;
     z-index:1;
     margin-top:90px;
+    text-align: center;
 }
 .top-txt{
     padding:100px 0;
     color:cornsilk;
 }
+/* ここからメインです */
+.main{
+    background-color:#000044;
+    color:cornsilk;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.my{
+    flex: auto;
+    width:40%;
+    padding:15px;
+}
+.contact-txt{
+    color:#000044;
+    text-align: center;
+}
+.contact{
+    color:#000044;
+    text-align: center;
+    display: flex;
+}
+.bottom{
+    flex: auto;
+    width:50%;
+}
+
+input,textarea{
+    width:80%;
+    margin-bottom:30px;
+    font-size:18px;
+
+}
+.name{
+    color:#008080;
+    text-align:left;
+
+}
+/* ここからフッターです */
 footer{
     background-color:#000044;
     color:cornsilk;
