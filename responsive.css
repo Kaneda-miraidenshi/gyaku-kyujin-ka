@@ -18,6 +18,23 @@
     .menu-icon{
         display:block;
     }
+    /*ここからメインのレスポンシブです*/
+    .my{
+        width:100%;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .bottom{
+        width:100%;
+    }
+    .sns{
+        width:80%;
+        border-radius:90px;
+    }
+    .sns a{
+        font-size:20px;
+    }
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
     /*　画面サイズが768pxから1024pxまではここを読み込む　*/
