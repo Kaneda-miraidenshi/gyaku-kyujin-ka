@@ -1,0 +1,45 @@
+@media screen and (max-width:480px) {
+    /*　画面サイズが480pxからはここを読み込む　*/
+    .header{
+        height:60px;
+        line-height: 30px;
+    }
+    .top{
+        margin-top:60px;
+    }
+    .header-list ol{
+        display:none;
+    }
+    .header h2{
+        display:inline-block;
+        width:60%;
+        text-align: center;
+    }
+    .menu-icon{
+        display:block;
+    }
+    /*ここからメインのレスポンシブです*/
+    .my{
+        width:100%;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .bottom{
+        width:100%;
+    }
+    .sns{
+        width:80%;
+        border-radius:90px;
+    }
+    .sns a{
+        font-size:20px;
+    }
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+    /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+}
+@media screen and (min-width:1024px) {
+    /*　画面サイズが1024pxからはここを読み込む　*/
+
+}

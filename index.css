@@ -19,6 +19,14 @@ body{
     height:90px;
 
 }
+.menu-icon{
+    color:cornsilk;
+    font-size:40px;
+    display:none;
+    float:right;
+    padding:0 15px;
+    line-height:60px;
+}
 
 .header h2{
     text-align:center;
@@ -33,9 +41,10 @@ body{
 .header-list ol{
     flex:auto;
     font-family: 'Times New Roman', Times, serif;
-    width:25%;
+    width:20%;
     text-align: center;
     padding:0;
+    border-bottom:0.5px solid cornsilk;
 }
 
 /* ここからトップ画面です */
@@ -79,15 +88,76 @@ body{
 }
 
 input,textarea{
-    width:80%;
-    margin-bottom:30px;
-    font-size:18px;
+    width:65%;
+    margin-bottom:25px;
+    font-size:15px;
+    padding:10px;
+    border:0.5px solid #192f60;
 
 }
-.name{
-    color:#008080;
-    text-align:left;
+.contact-form p{
+    color:#192f60;
+}
+.contact-submit{
+    background-color:#c0c0c0;
+    color:#000044;
+    border-radius:5px;
+    width:50%;
+}
 
+.snss{
+    display: flex;
+    justify-content: center;
+}
+
+.snss ul{
+    padding-inline-start:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sns-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sns{
+    margin:10px 6px;
+    border-radius: 50px;
+    display:inline-block;
+    padding:20px 0;
+    width:40%;
+}
+.sns span{
+    color: white;
+    text-decoration: none;
+    padding:0 4px;
+    font-size:20px;
+}
+.sns a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size:20px;
+}
+.twitter{
+    background-color: #1DA1F2;
+}
+.facebook{
+    background-color:#3B5998;
+}
+.github{
+background-color: #444444;
+}
+.instagram{
+    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+}
+.instagram:before{
+    background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+    background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
 }
 /* ここからフッターです */
 footer{
