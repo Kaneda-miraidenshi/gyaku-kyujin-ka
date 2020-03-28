@@ -19,6 +19,14 @@ body{
     height:90px;
 
 }
+.menu-icon{
+    color:cornsilk;
+    font-size:40px;
+    display:none;
+    float:right;
+    padding:0 15px;
+    line-height:60px;
+}
 
 .header h2{
     text-align:center;
