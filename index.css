@@ -44,7 +44,14 @@ body{
     width:20%;
     text-align: center;
     padding:0;
-    border-bottom:0.5px solid cornsilk;
+}
+.header-list a{
+    color: cornsilk;
+    text-decoration: none;
+}
+/*上下リストのカーソルをポインタに指定します*/
+ol:hover{
+    cursor: pointer;;
 }
 
 /* ここからトップ画面です */
@@ -152,6 +159,9 @@ input,textarea{
 }
 .sns-list-res ol{
     display:none;
+}
+.sns:hover{
+    opacity:0.9;
 }
 .twitter{
     background-color: #1DA1F2;

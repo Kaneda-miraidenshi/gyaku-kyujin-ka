@@ -9,6 +9,8 @@
 
 <link rel="stylesheet" href="index.css">
 <link rel="stylesheet" href="responsive.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="anime.js"></script>
 
 </head>
 
@@ -21,11 +23,11 @@
             <span class="fas fa-caret-down menu-icon"></span>
             </div>
             <ul class="header-list">
-                <ol>まず最初に</ol>
-                <ol>私について</ol>
-                <ol>職歴</ol>
-                <ol>渡航歴</ol>
-                <ol>お問い合わせ</ol>
+                <ol class="list" ><a href="#main-top">まず最初に</a></ol>
+                <ol class="list" ><a href="#main-top">私について</a></ol>
+                <ol class="list" ><a href="#my-history"> 職歴</a></ol>
+                <ol class="list" ><a href="my-abroad">渡航歴</a></ol>
+                <ol class="list" ><a href="contact-page">お問い合わせ</a></ol>
             </ul>
         </div>
         <div class="top">
@@ -37,16 +39,15 @@
             </div>
         </div>
         <div class="main">
-            <div class="my self">
-                <h2>まず最初に</h2>
-                <p>このサイトは個人が作ったサイトです。プログラミングで学んだ様々な機能をこのサイトに搭載する事で、自分の理解を深める目的があります。</p>
-                <p></p>
-            </div>
-            <div class="my intro">
-                <h2>誰がこのサイトを作ったのか？</h2>
-                <p>神戸市外国語大学二年ロシア学科在学中。<b>これまで一切プログラミングに触ったことはなく</b>、一から様々な事を学んでいます。</p>
-            </div>
-            <div class="my history">
+                <div class="my self" id="my-self">
+                    <h2>まず最初に</h2>
+                    <p>このサイトは個人が作ったサイトです。プログラミングで学んだ様々な機能をこのサイトに搭載する事で、自分の理解を深める目的があります。</p>
+                </div>
+                <div class="my intro" id="my-intro">
+                    <h2>誰がこのサイトを作ったのか？</h2>
+                    <p>神戸市外国語大学二年ロシア学科在学中。<b>これまで一切プログラミングに触ったことはなく</b>、一から様々な事を学んでいます。</p>
+                </div>
+            <div class="my history" id="my-history">
                 <h2>プログラミングと関わりのない職歴</h2>
                 <p>2017年　大阪市立高校卒業</p>
                 <p>2017年　神戸市外国語大学　外国語学部　ロシア学科入学</p>
@@ -57,7 +58,7 @@
                 <p>2019年　11月〜　塾講師として勤務</p>
                 <p>2020年　２月〜　未来電子のプログラミングコースのインターン生として入社</p>
             </div>
-            <div class="my abroad">
+            <div class="my abroad" id="my-abroad">
                 <h2>訪れた国々</h2>
                 <p>2014年　地元の姉妹都市に交換留学としてカナダに一週間ホームステイ</p>
                 <p>2015年　高校の交換留学としてオーストラリアに二週間ホームステイ</p>
@@ -67,12 +68,13 @@
                 <p>2019年　11月　国の日露交流事業に参加し、ロシアに二週間留学（ウラジオストク）</p>
             </div>
         </div>
-        <h2 class="contact-txt">どんな人か知ってみる</h2>
+        <h2 class="contact-txt" id="contact-page">どんな人か知ってみる</h2>
         <div class="contact">
             <div class="bottom contact-form">
                 <h3>お問い合わせ</h3>
                 <p>- お名前 -</p>
                 <input type="text">
+                
                 <p>- お問い合わせ内容 -</p>
                 <textarea></textarea>
                 <input class="contact-submit" type="submit" value="送信">
