@@ -11,7 +11,7 @@ $('.sns-list a').hover(
     function(){
 
 $(this).animate({
-    'font-size':'28px'
+    'font-size':'23px'
 },100);
 },function(){
     $(this).animate({
