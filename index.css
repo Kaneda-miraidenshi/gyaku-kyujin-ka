@@ -75,6 +75,10 @@ ol:hover{
     display: flex;
     flex-wrap: wrap;
 }
+.main span{
+    display:none;
+
+}
 .main h2{
     border-bottom:1px solid cornsilk;
 }
