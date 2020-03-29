@@ -24,16 +24,50 @@
     }
     .contact{
         flex-direction: column;
+        text-align:left;
     }
     .bottom{
         width:100%;
     }
-    .sns{
-        width:80%;
-        border-radius:90px;
+    .sns-list ol{
+        display:none;
     }
-    .sns a{
-        font-size:20px;
+    .sns-list-res ul{
+        float:center;
+        padding-inline-start:0;
+
+    }
+    .sns-list-res ol{
+        display: block;
+        padding-inline-start:0;
+        flex: auto;
+        padding:0 10px;
+    }
+    .sns-list-res span{
+        color:white;
+        font-size:30px;
+        padding:15px;
+        border-radius:50%;
+    }
+    .fa-twitter{
+        background-color: #1DA1F2;
+    }
+    .fa-facebook-f{
+        background-color:#3B5998;
+        padding:0 20px;
+    }
+    .fa-github{
+    background-color: #444444;
+    }
+    .fa-instagram{
+        background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+        background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+        overflow: hidden;/*はみ出た部分を隠す*/
+        text-decoration:none;/*下線は消す*/
+    }
+    .fa-instagram:before{
+        background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+        background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
     }
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {

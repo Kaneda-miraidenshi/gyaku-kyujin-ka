@@ -64,14 +64,19 @@ body{
 .main{
     background-color:#000044;
     color:cornsilk;
-    text-align: center;
+    text-align:left;
     display: flex;
     flex-wrap: wrap;
+}
+.main h2{
+    border-bottom:1px solid cornsilk;
 }
 .my{
     flex: auto;
     width:40%;
-    padding:15px;
+    padding:20px 25px;
+    float:left;
+
 }
 .contact-txt{
     color:#000044;
@@ -81,6 +86,9 @@ body{
     color:#000044;
     text-align: center;
     display: flex;
+}
+.contact h3{
+    text-align: center;
 }
 .bottom{
     flex: auto;
@@ -94,9 +102,11 @@ input,textarea{
     padding:10px;
     border:0.5px solid #192f60;
 
+
 }
 .contact-form p{
     color:#192f60;
+    
 }
 .contact-submit{
     background-color:#c0c0c0;
@@ -139,6 +149,9 @@ input,textarea{
     text-decoration: none;
     display: block;
     font-size:20px;
+}
+.sns-list-res ol{
+    display:none;
 }
 .twitter{
     background-color: #1DA1F2;
